@@ -1,7 +1,5 @@
 import moment from "moment";
 import React from "react";
-import { TimeSlot } from "..";
-import { TimeSlotGroup } from "../../components";
 
 function Day({ name }) {
   const todayDay = moment().format("ddd");

@@ -2,7 +2,7 @@ import moment from "moment";
 import React from "react";
 import { DayHeader } from "..";
 import { TimeSlotGroup } from "../../components";
-import Day from "../Day";
+
 function Week({ weekDays }) {
   console.log(moment().isoWeekday());
   return (
