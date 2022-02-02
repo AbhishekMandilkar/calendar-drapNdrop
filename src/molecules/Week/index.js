@@ -9,7 +9,7 @@ function Week({ weekDays }) {
     <>
       <div className="flex-1">
         <DayHeader weekDays={weekDays} />
-        <div className="h-full flex-1  flex">
+        <div className="h-full flex justify-center">
           <TimeSlotGroup isWeek />
           {weekDays.map((days) => (
             <TimeSlotGroup day={days} />

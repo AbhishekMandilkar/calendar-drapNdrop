@@ -1,4 +1,3 @@
-import { castDraft } from "immer";
 import React from "react";
 import { useDrag } from "react-dnd";
 function AppointMentCard({ id, name, treatment, time, color }) {
